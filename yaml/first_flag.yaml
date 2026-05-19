@@ -1,0 +1,33 @@
+pipeline:
+  name: FME-Flag Pipeline
+  identifier: FMEFlag_Pipeline
+  projectIdentifier: ProjectFifteen
+  orgIdentifier: BrenttsPersonalFME
+  tags: {}
+  stages:
+    - stage:
+        name: approve
+        identifier: approve
+        description: ""
+        type: Approval
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: approval
+                  identifier: approval
+                  type: HarnessApproval
+                  timeout: 1d
+                  spec:
+                    approvalMessage: |-
+                      Please review the following information
+                      and approve the pipeline progression
+                    includePipelineExecutionHistory: true
+                    approvers:
+                      minimumCount: 1
+                      disallowPipelineExecutor: false
+                      userGroups:
+                        - account._fme_admins
+                    isAutoRejectEnabled: false
+                    approverInputs: []
+        tags: {}
