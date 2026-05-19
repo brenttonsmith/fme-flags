@@ -6,7 +6,7 @@ pipeline:
   tags: {}
   stages:
     - stage:
-        name: pull flag info
+        name: UpdateFlagMetadata
         identifier: pull_flag_info
         description: ""
         type: Custom
