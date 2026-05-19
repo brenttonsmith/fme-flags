@@ -6,28 +6,19 @@ pipeline:
   tags: {}
   stages:
     - stage:
-        name: approve
-        identifier: approve
+        name: pull flag info
+        identifier: pull_flag_info
         description: ""
-        type: Approval
+        type: Custom
         spec:
           execution:
             steps:
               - step:
-                  name: approval
-                  identifier: approval
-                  type: HarnessApproval
-                  timeout: 1d
+                  type: FmeFlagUpdate
+                  name: FmeFlagUpdate_1
+                  identifier: FmeFlagUpdate_1
                   spec:
-                    approvalMessage: |-
-                      Please review the following information
-                      and approve the pipeline progression
-                    includePipelineExecutionHistory: true
-                    approvers:
-                      minimumCount: 1
-                      disallowPipelineExecutor: false
-                      userGroups:
-                        - account._fme_admins
-                    isAutoRejectEnabled: false
-                    approverInputs: []
+                    name: myFirstFlag
+                    owners:
+                      - Group:_fme_admins
         tags: {}
