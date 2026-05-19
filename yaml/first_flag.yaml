@@ -15,7 +15,7 @@ pipeline:
             steps:
               - step:
                   type: FmeFlagUpdate
-                  name: FmeFlagUpdate_1
+                  name: FmeFlagUpdate Upate Meta
                   identifier: FmeFlagUpdate_1
                   spec:
                     name: myFirstFlag
