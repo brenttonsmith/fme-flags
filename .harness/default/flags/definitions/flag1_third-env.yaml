@@ -1,0 +1,34 @@
+flagRef: flag1
+environment: Fourth-Env
+status: active
+killed: false
+treatments:
+- name: "on"
+  baseline: false
+  defaultTreatment: false
+  configurations: |-
+    {
+      "dynamic1": "value1",
+      "dynamic2": "value2"
+    }
+  includes:
+  - bob
+  segments:
+  - name: rule-based-seg
+    type: rule_based_segment
+- name: "off"
+  baseline: true
+  defaultTreatment: true
+  configurations: |-
+    {
+      "dynamic1": "value3",
+      "dynamic2": "value4"
+    }
+- name: treatment3
+  baseline: false
+  defaultTreatment: false
+  configurations: |-
+    {
+      "dynamic1": "value5",
+      "dynamic2": "value6"
+    }
