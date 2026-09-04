@@ -1,0 +1,26 @@
+fmeResource:
+  flagRef: gitx_testing
+  environment: Staging-speed10
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    description: "on"
+    baseline: false
+    defaultTreatment: false
+    configurations: |-
+      {
+        "dynamic": "This is some dynamic value. Feel it's dynamicity!"
+      }
+    includes:
+    - caddywompus
+    - tiddlywinks
+  - name: "off"
+    description: "off"
+    baseline: false
+    defaultTreatment: true
+    configurations: |-
+      {
+        "not-dynamic": "I am boring. Look away."
+      }
