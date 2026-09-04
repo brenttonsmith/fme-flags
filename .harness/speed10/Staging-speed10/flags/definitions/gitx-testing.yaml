@@ -6,7 +6,7 @@ fmeResource:
   impressionsDisabled: false
   treatments:
   - name: "on"
-    description: Wonderful things will happen.
+    description: Wonderful things will happen
     baseline: false
     defaultTreatment: false
     configurations: |-
@@ -17,7 +17,7 @@ fmeResource:
     - caddywompus
     - tiddlywinks
   - name: "off"
-    description: Nothing will change. Hum-drum.
+    description: Nothing will change
     baseline: false
     defaultTreatment: true
     configurations: |-
