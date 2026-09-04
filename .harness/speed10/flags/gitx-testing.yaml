@@ -1,0 +1,5 @@
+fmeResource:
+  name: gitx_testing
+  description: This is my description. How does it look in git? Second try?
+  trafficType: user
+  rolloutStatus: Pre-Production
