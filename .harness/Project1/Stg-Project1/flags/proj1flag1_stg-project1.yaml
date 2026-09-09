@@ -3,10 +3,10 @@ fmeResource:
   identifier: proj1flag1_stg-project1
   name: proj1flag1
   kind: boolean
-  defaultOnVariation: "true"
-  defaultOffVariation: "false"
+  defaultOnVariation: "ON"
+  defaultOffVariation: "Off"
   variations:
-    - identifier: "true"
-      value: "true"
-    - identifier: "false"
-      value: "false"
+    - identifier: "on"
+      value: "on"
+    - identifier: "Off"
+      value: "Off"
