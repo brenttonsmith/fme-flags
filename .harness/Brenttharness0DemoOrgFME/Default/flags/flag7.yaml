@@ -1,0 +1,4 @@
+fmeResource:
+  name: flag7
+  trafficType: user
+  rolloutStatus: Pre-Production
