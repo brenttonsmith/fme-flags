@@ -3,5 +3,6 @@ fmeResource:
   environment: Third-Env
   status: active
   keys:
-  - bob
-  - Herald
+  - Bob
+  - Gerome
+  - Penny
