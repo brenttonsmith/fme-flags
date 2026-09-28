@@ -1,4 +1,5 @@
 fmeResource:
   name: flag7
+  description: Adding a description for Flag 7
   trafficType: user
-  rolloutStatus: Pre-Production
+  rolloutStatus: Internal Testing
