@@ -1,5 +1,5 @@
 fmeResource:
   name: flag7
-  description: Adding a description for Flag 7
+  description: This is my awesome flag description
   trafficType: user
   rolloutStatus: Internal Testing
