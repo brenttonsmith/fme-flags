@@ -1,5 +1,4 @@
 fmeResource:
   name: flag7
-  description: This is my awesome flag description
   trafficType: user
-  rolloutStatus: Internal Testing
+  rolloutStatus: Pre-Production
