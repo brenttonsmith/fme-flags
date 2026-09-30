@@ -1,4 +1,4 @@
 fmeResource:
   name: firstSegment
-  description: This is the description of my segment
+  description: This is the description of my segment. After update
   trafficType: user
