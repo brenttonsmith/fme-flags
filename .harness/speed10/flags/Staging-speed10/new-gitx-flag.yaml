@@ -4,6 +4,7 @@ fmeResource:
   status: active
   killed: false
   impressionsDisabled: false
+  definition: "if user is in segment all then split 43%:on,57%:off"
   treatments:
   - name: "on"
     description: "on"
