@@ -9,6 +9,10 @@ fmeResource:
     description: "on"
     baseline: false
     defaultTreatment: false
+    configurations: |-
+      {
+        "dynamic": "This is some dynamic value. Feel it's dynamicity!"
+      }
     includes:
     - caddywompus
     - tiddlywinks
@@ -16,3 +20,7 @@ fmeResource:
     description: "off"
     baseline: false
     defaultTreatment: true
+    configurations: |-
+      {
+        "not-dynamic": "I am boring. Look away."
+      }
