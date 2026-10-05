@@ -6,9 +6,9 @@ fmeResource:
   impressionsDisabled: false
   defaultRule:
   - treatment: "on"
-    size: 43
+    size: 30
   - treatment: "off"
-    size: 57
+    size: 70
   treatments:
   - name: "on"
     description: "on"
