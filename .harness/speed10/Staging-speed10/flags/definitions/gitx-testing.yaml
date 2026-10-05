@@ -6,7 +6,7 @@ fmeResource:
   impressionsDisabled: false
   treatments:
   - name: "on"
-    description: on once more
+    description: on before the dawn of time.
     baseline: false
     defaultTreatment: false
     configurations: |-
