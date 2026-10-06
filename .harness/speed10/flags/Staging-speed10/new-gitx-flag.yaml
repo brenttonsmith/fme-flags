@@ -4,11 +4,6 @@ fmeResource:
   status: active
   killed: false
   impressionsDisabled: false
-  defaultRule:
-  - treatment: "on"
-    size: 0
-  - treatment: "off"
-    size: 0
   treatments:
   - name: "on"
     description: "on"
