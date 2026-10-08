@@ -1,0 +1,5 @@
+fmeResource:
+  name: new_gitx_flag
+  description: This is my new gitx testing flag
+  trafficType: user
+  rolloutStatus: Pre-Production
