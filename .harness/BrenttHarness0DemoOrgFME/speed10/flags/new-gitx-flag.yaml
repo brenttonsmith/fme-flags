@@ -1,5 +1,0 @@
-fmeResource:
-  name: new_gitx_flag
-  description: This is my new gitx testing flag in the Universe
-  trafficType: user
-  rolloutStatus: Internal Testing
