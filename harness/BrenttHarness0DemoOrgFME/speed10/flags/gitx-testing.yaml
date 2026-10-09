@@ -4,3 +4,10 @@ fmeResource:
     from git.
   trafficType: user
   rolloutStatus: Pre-Production
+  tags:
+  - tag1
+  owners:
+  - type: user
+    id: RXUnxKTgSq-UDl5YlsXVjA
+  - type: group
+    id: _fme_admins
