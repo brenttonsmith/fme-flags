@@ -1,5 +1,5 @@
 fmeResource:
   name: flag1
-  description: Official description of Flag1
+  description: Official description of Flag1 in Default project
   trafficType: user
   rolloutStatus: Internal Testing
