@@ -6,7 +6,7 @@ fmeResource:
   impressionsDisabled: false
   treatments:
   - name: "on"
-    description: "on - there be demons,"
+    description: "on - there be demons, and demons are infinitely bad"
     baseline: false
     defaultTreatment: false
     configurations: |-
