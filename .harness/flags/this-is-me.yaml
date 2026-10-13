@@ -1,0 +1,4 @@
+fmeResource:
+  name: this_is_me
+  trafficType: user
+  rolloutStatus: Pre-Production
