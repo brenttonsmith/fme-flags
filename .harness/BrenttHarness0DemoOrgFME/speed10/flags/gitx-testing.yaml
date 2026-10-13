@@ -5,7 +5,7 @@ fmeResource:
   trafficType: user
   rolloutStatus: Pre-Production
   tags:
-  - tag1
+  - goober
   owners:
   - type: user
     id: RXUnxKTgSq-UDl5YlsXVjA
