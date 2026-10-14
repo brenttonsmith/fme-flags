@@ -1,0 +1,5 @@
+fmeResource:
+  name: FirstFlag
+  description: this is a description of the flag metadata
+  trafficType: user
+  rolloutStatus: Pre-Production
