@@ -4,5 +4,5 @@ fmeResource:
   trafficType: user
   rolloutStatus: Internal Testing
   tags:
-  - tag1
+  - goober
   owners: []
