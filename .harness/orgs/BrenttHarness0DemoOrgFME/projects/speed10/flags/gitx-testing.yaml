@@ -3,4 +3,9 @@ fmeResource:
   description: This is my description. How does it look in git? Updating the description
     from git.
   trafficType: user
-  rolloutStatus: Ramping
+  rolloutStatus: Pre-Production
+  tags:
+  - goober
+  owners:
+  - type: user
+    id: RXUnxKTgSq-UDl5YlsXVjA
