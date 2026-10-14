@@ -1,0 +1,12 @@
+fmeResource:
+  name: FirstFlag
+  description: this is a description of the flag metadata
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags:
+  - tag1
+  owners:
+  - type: group
+    id: _fme_admins
+  - type: user
+    id: RXUnxKTgSq-UDl5YlsXVjA
