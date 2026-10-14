@@ -1,0 +1,42 @@
+fmeResource:
+  flagRef: flag1
+  environment: Fourth-Env
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    description: on once more
+    baseline: false
+    defaultTreatment: false
+    configurations: |-
+      {
+        "dynamic1": "value1",
+        "dynamic2": "value2"
+      }
+    includes:
+    - bob
+    segments:
+    - name: rule-based-seg
+      type: rule_based_segment
+  - name: "off"
+    description: "off"
+    baseline: true
+    defaultTreatment: true
+    configurations: |-
+      {
+        "dynamic1": "value3",
+        "dynamic2": "value4"
+      }
+  - name: treatment3
+    description: treatment3
+    baseline: false
+    defaultTreatment: false
+    configurations: |-
+      {
+        "dynamic1": "value5",
+        "dynamic2": "value6"
+      }
+  defaultRule:
+  - treatment: "off"
+    size: 100
