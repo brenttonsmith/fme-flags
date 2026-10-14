@@ -1,0 +1,6 @@
+fmeResource:
+  segmentRef: firstSegment
+  environment: Fourth-Env
+  status: active
+  keys:
+  - brentt
