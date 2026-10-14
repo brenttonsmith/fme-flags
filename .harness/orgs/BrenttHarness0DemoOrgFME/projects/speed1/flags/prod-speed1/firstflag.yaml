@@ -1,0 +1,15 @@
+fmeResource:
+  flagRef: FirstFlag
+  environment: Prod-speed1
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    baseline: false
+  - name: "off"
+    baseline: true
+    defaultTreatment: true
+  defaultRule:
+  - treatment: "off"
+    size: 100
