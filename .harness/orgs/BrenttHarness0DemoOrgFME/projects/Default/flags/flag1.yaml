@@ -1,5 +1,8 @@
 fmeResource:
   name: flag1
-  description: Official description of Flag1 - this works?
+  description: Official description of Flag1 - does not work?
   trafficType: user
   rolloutStatus: Internal Testing
+  tags:
+  - tag1
+  owners: []
