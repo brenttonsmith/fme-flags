@@ -1,6 +1,6 @@
 fmeResource:
   name: flag1
-  description: Official description of Flag1 - does not work?
+  description: Official description of Flag1 in the metaverse
   trafficType: user
   rolloutStatus: Internal Testing
   tags:
