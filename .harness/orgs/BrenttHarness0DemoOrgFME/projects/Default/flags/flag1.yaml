@@ -1,9 +1,11 @@
 fmeResource:
   name: flag1
-  description: Official description of Flag1 in the metaverse, or spiderverse
+  description: "Official description of Flag1 in the metaverse, or spiderverse"
   trafficType: user
   rolloutStatus: Internal Testing
   tags:
   - goober
   - tag1
-  owners: []
+  owners:
+  - type: user
+    id: RqosIs1BRy2o932a0z3F7A
