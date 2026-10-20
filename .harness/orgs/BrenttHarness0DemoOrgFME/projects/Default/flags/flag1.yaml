@@ -5,4 +5,5 @@ fmeResource:
   rolloutStatus: Internal Testing
   tags:
   - goober
+  - tag1
   owners: []
