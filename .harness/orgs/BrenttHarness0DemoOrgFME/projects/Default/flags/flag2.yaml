@@ -1,6 +1,6 @@
 fmeResource:
   name: flag2
-  description: Can I get a description now?
+  description: Can I get a description now? Or now
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
