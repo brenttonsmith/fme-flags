@@ -1,0 +1,48 @@
+pipeline:
+  name: GitXPipelineExample
+  identifier: GitXPipelineExample
+  projectIdentifier: Default
+  orgIdentifier: BrenttHarness0DemoOrgFME
+  tags: {}
+  stages:
+    - stage:
+        name: approval
+        identifier: approval
+        description: ""
+        type: Approval
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: CustomApproval
+                  name: yesApproval
+                  identifier: yesApproval
+                  timeout: 1d
+                  spec:
+                    shell: Bash
+                    retryInterval: 10s
+                    scriptTimeout: 10m
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo "say yes"
+                    environmentVariables: []
+                    approvalCriteria:
+                      type: KeyValues
+                      spec:
+                        matchAnyCondition: false
+                        conditions:
+                          - key: approved
+                            operator: equals
+                            value: "yes"
+                    rejectionCriteria:
+                      type: KeyValues
+                      spec:
+                        matchAnyCondition: false
+                        conditions: []
+                    onDelegate: true
+                    outputVariables:
+                      - name: type
+                        type: String
+                        value: "yes"
+        tags: {}
