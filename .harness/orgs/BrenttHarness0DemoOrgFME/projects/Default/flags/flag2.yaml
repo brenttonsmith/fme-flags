@@ -1,6 +1,10 @@
 fmeResource:
   name: flag2
+  description: Here is my description change
   trafficType: user
   rolloutStatus: Pre-Production
-  tags: []
-  owners: []
+  tags:
+  - goober
+  owners:
+  - type: user
+    id: ya8-dwMlRtKJjj9WGcZSRw
