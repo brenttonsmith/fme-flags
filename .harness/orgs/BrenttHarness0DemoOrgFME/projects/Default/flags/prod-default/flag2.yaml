@@ -1,0 +1,17 @@
+fmeResource:
+  flagRef: flag2
+  environment: Prod-Default
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    baseline: false
+  - name: "off"
+    baseline: true
+    defaultTreatment: true
+  flagSets:
+  - testfs
+  defaultRule:
+  - treatment: "off"
+    size: 100
