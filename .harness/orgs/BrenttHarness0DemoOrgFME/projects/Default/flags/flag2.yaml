@@ -1,7 +1,10 @@
 fmeResource:
   name: flag2
-  description: Can I get a description now? Or now
+  description: This is messed up.
   trafficType: user
-  rolloutStatus: Pre-Production
-  tags: []
-  owners: []
+  rolloutStatus: Internal Testing
+  tags:
+  - goober
+  owners:
+  - type: user
+    id: ya8-dwMlRtKJjj9WGcZSRw
