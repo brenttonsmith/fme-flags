@@ -1,5 +1,6 @@
 fmeResource:
   name: flag3
+  description: desc
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
