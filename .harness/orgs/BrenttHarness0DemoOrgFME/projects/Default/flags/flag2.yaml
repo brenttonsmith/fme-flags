@@ -1,6 +1,6 @@
 fmeResource:
   name: flag2
-  description: This is messed up. But it does work.
+  description: This is messed up. But it does work. Sometimes
   trafficType: user
   rolloutStatus: Internal Testing
   tags:
