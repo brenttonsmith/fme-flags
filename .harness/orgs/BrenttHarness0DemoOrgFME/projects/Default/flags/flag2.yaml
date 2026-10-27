@@ -1,10 +1,11 @@
 fmeResource:
   name: flag2
-  description: This is messed up.
+  description: This is messed up. But it does work.
   trafficType: user
   rolloutStatus: Internal Testing
   tags:
   - goober
+  - tag1
   owners:
   - type: user
     id: ya8-dwMlRtKJjj9WGcZSRw
