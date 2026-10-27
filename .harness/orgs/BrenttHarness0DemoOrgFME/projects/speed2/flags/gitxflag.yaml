@@ -1,0 +1,10 @@
+fmeResource:
+  name: GitXFlag
+  description: A description is a fine thing to have.
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags:
+  - goober
+  owners:
+  - type: user
+    id: RXUnxKTgSq-UDl5YlsXVjA
