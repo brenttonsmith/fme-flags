@@ -8,10 +8,14 @@ fmeResource:
   - name: "on"
     description: "on"
     baseline: false
+    defaultTreatment: false
   - name: "off"
     description: "off"
     baseline: true
     defaultTreatment: true
+  - name: something
+    baseline: false
+    defaultTreatment: false
   defaultRule:
   - treatment: "off"
     size: 100
