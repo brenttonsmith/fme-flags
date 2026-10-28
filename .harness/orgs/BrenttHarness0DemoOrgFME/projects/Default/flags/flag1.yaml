@@ -1,6 +1,6 @@
 fmeResource:
   name: flag1
-  description: Desc
+  description: Description
   trafficType: user
   rolloutStatus: Internal Testing
   tags:
