@@ -1,11 +1,11 @@
 fmeResource:
   name: firstSegment
-  description: This is the description of my segment. After update. Not updated.
+  description: This is the description of my segment. After update from UI
   trafficType: user
   owners:
   - type: group
     id: _fme_admins
   - type: user
-    id: RXUnxKTgSq-UDl5YlsXVjA
+    id: BRu4z2WtTzKb1wic-6N6Og
   - type: user
-    id: ya8-dwMlRtKJjj9WGcZSRw
+    id: RXUnxKTgSq-UDl5YlsXVjA
