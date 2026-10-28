@@ -1,7 +1,6 @@
 fmeResource:
   name: flag1
-  description: "Official description of Flag1 in the metaverse, or spiderverse, or\
-    \ Narnia"
+  description: Desc
   trafficType: user
   rolloutStatus: Internal Testing
   tags:
