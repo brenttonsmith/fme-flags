@@ -1,4 +1,11 @@
 fmeResource:
   name: firstSegment
-  description: This is the description of my segment. After update from git.
+  description: This is the description of my segment. After update. Not updated.
   trafficType: user
+  owners:
+  - type: group
+    id: _fme_admins
+  - type: user
+    id: RXUnxKTgSq-UDl5YlsXVjA
+  - type: user
+    id: ya8-dwMlRtKJjj9WGcZSRw
