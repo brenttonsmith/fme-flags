@@ -8,9 +8,11 @@ fmeResource:
   - goober
   - tag1
   owners:
+  - type: group
+    id: _fme_admins
   - type: user
     id: BRu4z2WtTzKb1wic-6N6Og
   - type: user
-    id: RqosIs1BRy2o932a0z3F7A
+    id: PPEPC_dcQPOGvOLYGLPoXA
   - type: user
-    id: WCM58qy5SeSMcmCRh3E5fQ
+    id: RqosIs1BRy2o932a0z3F7A
