@@ -6,7 +6,6 @@ fmeResource:
   rolloutStatus: Internal Testing
   tags:
   - goober
-  - tag1
   owners:
   - type: group
     id: _fme_admins
