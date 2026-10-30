@@ -1,0 +1,8 @@
+fmeResource:
+  name: flag4
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners:
+  - type: user
+    id: DAOzXOh7SkWDGm6wA73m1A
