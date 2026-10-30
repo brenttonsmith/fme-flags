@@ -1,6 +1,6 @@
 fmeResource:
   name: flag4
-  description: description 23456
+  description: description 234567
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
