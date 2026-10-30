@@ -1,7 +1,7 @@
 fmeResource:
   name: gitx_testing
   description: This is my description. How does it look in git? Updating the description
-    from git.
+    from git. This came from a PR merge.
   trafficType: user
   rolloutStatus: Pre-Production
   tags:
