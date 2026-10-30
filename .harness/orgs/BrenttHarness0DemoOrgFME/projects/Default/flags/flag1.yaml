@@ -1,10 +1,14 @@
 fmeResource:
   name: flag1
-  description: Description
+  description: "My young mind was in that disturbed and unthankful state that I thought\
+    \ long after I had laid me down, how common Estella would consider Joe.. and how\
+    \ Miss Havisham and Estella never sat in a kitchen, but were far above the level\
+    \ of such common things."
   trafficType: user
-  rolloutStatus: Internal Testing
+  rolloutStatus: Ramping
   tags:
   - goober
+  - tag1
   owners:
   - type: group
     id: _fme_admins
@@ -14,3 +18,5 @@ fmeResource:
     id: BRu4z2WtTzKb1wic-6N6Og
   - type: user
     id: RqosIs1BRy2o932a0z3F7A
+  - type: user
+    id: WCM58qy5SeSMcmCRh3E5fQ
