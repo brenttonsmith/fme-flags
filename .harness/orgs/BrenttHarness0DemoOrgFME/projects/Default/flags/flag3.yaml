@@ -1,6 +1,6 @@
 fmeResource:
   name: flag3
-  description: desc - new branch custom-commit-branch-1
+  description: desc - new pr 2
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
