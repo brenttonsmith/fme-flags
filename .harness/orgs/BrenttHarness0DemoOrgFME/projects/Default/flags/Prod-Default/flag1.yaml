@@ -1,0 +1,39 @@
+fmeResource:
+  flagRef: flag1
+  environment: Prod-Default
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    description: on for cool people on Earth
+    baseline: false
+    defaultTreatment: false
+    includes:
+    - Mohit
+    segments:
+    - name: firstSegment
+      type: standard_segment
+  - name: "off"
+    description: off for not cool people on Mars
+    baseline: true
+    defaultTreatment: true
+  definition:
+  - buckets:
+    - treatment: "on"
+      size: 100
+    condition:
+      matchers:
+      - !<IN_LIST_STRING>
+        type: IN_LIST_STRING
+        attribute: operation
+        strings:
+        - read
+      - !<IN_LIST_STRING>
+        type: IN_LIST_STRING
+        attribute: cluster
+        strings:
+        - split
+  defaultRule:
+  - treatment: "on"
+    size: 100
