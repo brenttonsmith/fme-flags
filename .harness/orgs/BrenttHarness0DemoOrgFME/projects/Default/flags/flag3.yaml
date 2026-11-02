@@ -1,9 +1,0 @@
-fmeResource:
-  name: flag3
-  description: desc - new pr 3
-  trafficType: user
-  rolloutStatus: Pre-Production
-  tags: []
-  owners:
-  - type: group
-    id: _fme_admins
