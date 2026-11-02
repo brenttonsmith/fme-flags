@@ -1,6 +1,6 @@
 fmeResource:
   name: flag5
-  description: updated 3
+  description: updated 4
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
