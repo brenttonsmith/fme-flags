@@ -27,4 +27,42 @@ pipeline:
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
+              - step:
+                  type: CustomApproval
+                  name: CustomApproval_1
+                  identifier: CustomApproval_1
+                  spec:
+                    rejectionCriteria:
+                      type: KeyValues
+                      spec:
+                        matchAnyCondition: true
+                        conditions: []
+                    approvalCriteria:
+                      type: KeyValues
+                      spec:
+                        matchAnyCondition: true
+                        conditions:
+                          - key: s
+                            operator: equals
+                            value: d
+                    scriptTimeout: 10m
+                    retryInterval: 1m
+                    shell: Bash
+                    onDelegate: true
+                    source:
+                      type: Inline
+                      spec:
+                        script: |
+                          #
+                          # Specify output variables in the step and these
+                          # variables should be used for setting up the approval 
+                          # and rejection criteria.
+                          #
+                          echo '123'
+                    environmentVariables: []
+                    outputVariables:
+                      - name: f
+                        type: String
+                        value: "2"
+                  timeout: 1d
         tags: {}
