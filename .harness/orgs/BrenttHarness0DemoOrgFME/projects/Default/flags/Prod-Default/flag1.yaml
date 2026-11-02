@@ -29,6 +29,9 @@ fmeResource:
         attribute: operation
         strings:
         - read
+        - write
+        - skip
+        - dance
       - !<IN_LIST_STRING>
         type: IN_LIST_STRING
         attribute: cluster
