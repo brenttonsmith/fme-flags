@@ -25,7 +25,7 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: echo "say yes"
+                        script: echo "say yes again"
                     environmentVariables: []
                     approvalCriteria:
                       type: KeyValues
