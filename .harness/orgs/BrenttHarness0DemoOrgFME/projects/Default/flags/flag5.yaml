@@ -1,0 +1,7 @@
+fmeResource:
+  name: flag5
+  description: 12
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners: []
