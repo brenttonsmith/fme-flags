@@ -42,9 +42,9 @@ pipeline:
                       spec:
                         matchAnyCondition: true
                         conditions:
-                          - key: f
+                          - key: asd
                             operator: equals
-                            value: "1"
+                            value: "123"
                     scriptTimeout: 10m
                     retryInterval: 1m
                     shell: Bash
@@ -58,11 +58,11 @@ pipeline:
                           # variables should be used for setting up the approval 
                           # and rejection criteria.
                           #
-                          echo "12"
+                          echo "123"
                     environmentVariables: []
                     outputVariables:
-                      - name: "n"
+                      - name: asd
                         type: String
-                        value: a
+                        value: "1"
                   timeout: 1d
         tags: {}
