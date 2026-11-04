@@ -14,17 +14,41 @@ pipeline:
           execution:
             steps:
               - step:
-                  type: ShellScript
-                  name: ShellScript_1
-                  identifier: ShellScript_1
+                  type: CustomApproval
+                  name: CustomApproval_1
+                  identifier: CustomApproval_1
                   spec:
+                    rejectionCriteria:
+                      type: KeyValues
+                      spec:
+                        matchAnyCondition: true
+                        conditions: []
+                    approvalCriteria:
+                      type: KeyValues
+                      spec:
+                        matchAnyCondition: true
+                        conditions:
+                          - key: approved
+                            operator: equals
+                            value: "true"
+                    scriptTimeout: 10m
+                    retryInterval: 1m
                     shell: Bash
-                    executionTarget: {}
+                    onDelegate: true
                     source:
                       type: Inline
                       spec:
-                        script: echo "help2"
+                        script: |
+                          #
+                          # Specify output variables in the step and these
+                          # variables should be used for setting up the approval 
+                          # and rejection criteria.
+                          #
+                          echo "work"
                     environmentVariables: []
-                    outputVariables: []
-                  timeout: 10m
+                    outputVariables:
+                      - name: approved
+                        type: String
+                        value: "true"
+                  timeout: 1d
         tags: {}
