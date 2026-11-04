@@ -1,7 +1,15 @@
 fmeResource:
   name: flag5
-  description: updated 4
+  description: This is the best description ever.
   trafficType: user
   rolloutStatus: Pre-Production
-  tags: []
-  owners: []
+  tags:
+  - goober
+  - tag1
+  owners:
+  - type: group
+    id: _fme_admins
+  - type: user
+    id: BRu4z2WtTzKb1wic-6N6Og
+  - type: user
+    id: WCM58qy5SeSMcmCRh3E5fQ
