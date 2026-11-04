@@ -38,5 +38,9 @@ fmeResource:
         "dynamic2": "value6"
       }
   defaultRule:
+  - treatment: "on"
+    size: 50
   - treatment: "off"
-    size: 100
+    size: 25
+  - treatment: treatment3
+    size: 25
