@@ -1,16 +1,13 @@
 fmeResource:
   name: flag5
-  description: This is the best description ever. Is it though?
+  description: "This is the best description ever. Is it though? Eh, maybe"
   trafficType: user
-  rolloutStatus: Pre-Production
+  rolloutStatus: Internal Testing
   tags:
   - goober
   - tag1
-  - tag2
   owners:
   - type: group
     id: _fme_admins
-  - type: user
-    id: BRu4z2WtTzKb1wic-6N6Og
   - type: user
     id: WCM58qy5SeSMcmCRh3E5fQ
