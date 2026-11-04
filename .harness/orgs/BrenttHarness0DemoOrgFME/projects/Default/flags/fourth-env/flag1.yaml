@@ -41,6 +41,6 @@ fmeResource:
   - treatment: "on"
     size: 50
   - treatment: "off"
-    size: 20
+    size: 25
   - treatment: treatment3
-    size: 30
+    size: 25
