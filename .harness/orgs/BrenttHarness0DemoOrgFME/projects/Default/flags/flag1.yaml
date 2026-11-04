@@ -9,7 +9,6 @@ fmeResource:
   tags:
   - goober
   - tag1
-  - tag2
   owners:
   - type: group
     id: _fme_admins
@@ -19,5 +18,3 @@ fmeResource:
     id: BRu4z2WtTzKb1wic-6N6Og
   - type: user
     id: RqosIs1BRy2o932a0z3F7A
-  - type: user
-    id: ya8-dwMlRtKJjj9WGcZSRw
