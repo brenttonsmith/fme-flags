@@ -38,13 +38,14 @@ pipeline:
                     source:
                       type: Inline
                       spec:
-                        script: |
+                        script: |-
                           #
                           # Specify output variables in the step and these
                           # variables should be used for setting up the approval 
                           # and rejection criteria.
                           #
                           echo "work"
+                          exit 0
                     environmentVariables: []
                     outputVariables:
                       - name: approved
