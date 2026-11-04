@@ -15,6 +15,6 @@ fmeResource:
     defaultTreatment: true
   defaultRule:
   - treatment: "on"
-    size: 50
+    size: 75
   - treatment: "off"
-    size: 50
+    size: 25
