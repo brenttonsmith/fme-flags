@@ -1,10 +1,12 @@
 fmeResource:
   name: flag7
+  description: This is my descrip
   trafficType: user
-  rolloutStatus: Pre-Production
+  rolloutStatus: External Beta
   tags:
-  - tag1
   - goober
+  - tag1
+  - tag2
   owners:
   - type: group
     id: _fme_admins
