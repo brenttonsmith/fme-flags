@@ -9,6 +9,9 @@ fmeResource:
     description: "on"
     baseline: false
     defaultTreatment: false
+    segments:
+    - name: firstSegment
+      type: standard_segment
   - name: "off"
     description: "off"
     baseline: false
