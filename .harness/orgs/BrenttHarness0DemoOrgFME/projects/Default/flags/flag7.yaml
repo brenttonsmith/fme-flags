@@ -1,0 +1,14 @@
+fmeResource:
+  name: flag7
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags:
+  - tag1
+  - goober
+  owners:
+  - type: group
+    id: _fme_admins
+  - type: user
+    id: BRu4z2WtTzKb1wic-6N6Og
+  - type: user
+    id: RXUnxKTgSq-UDl5YlsXVjA
