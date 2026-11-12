@@ -1,0 +1,18 @@
+fmeResource:
+  flagRef: flag1
+  environment: Third-Env
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    description: on once more
+    baseline: false
+    defaultTreatment: false
+  - name: "off"
+    description: "off"
+    baseline: true
+    defaultTreatment: true
+  defaultRule:
+  - treatment: "off"
+    size: 100
