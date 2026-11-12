@@ -6,7 +6,7 @@ fmeResource:
   impressionsDisabled: false
   treatments:
   - name: "on"
-    description: on for third-env in stage
+    description: on for third-env in stage - second try
     baseline: false
     defaultTreatment: false
   - name: "off"
