@@ -1,0 +1,21 @@
+fmeResource:
+  flagRef: flag1
+  environment: Staging-Default
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    description: 'on '
+    baseline: false
+  - name: "off"
+    description: "off"
+    baseline: true
+    defaultTreatment: true
+  flagSets:
+  - backend
+  defaultRule:
+  - treatment: "on"
+    size: 50
+  - treatment: "off"
+    size: 50
