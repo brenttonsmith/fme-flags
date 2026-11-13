@@ -15,4 +15,4 @@ fmeResource:
     defaultTreatment: true
   defaultRule:
   - treatment: "off"
-    size: 100
+    size: "abc"
