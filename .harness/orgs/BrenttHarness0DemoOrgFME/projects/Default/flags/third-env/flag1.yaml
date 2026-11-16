@@ -6,7 +6,7 @@ fmeResource:
   impressionsDisabled: false
   treatments:
   - name: "on"
-    description: on for third-env in stage - fifth try
+    description: on for third-env in stage - Does this actually work?
     baseline: false
     defaultTreatment: false
   - name: "off"
@@ -15,4 +15,4 @@ fmeResource:
     defaultTreatment: true
   defaultRule:
   - treatment: "off"
-    size: "abc"
+    size: 100
