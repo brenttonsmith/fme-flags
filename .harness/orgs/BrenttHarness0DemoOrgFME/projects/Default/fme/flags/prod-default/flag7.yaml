@@ -1,0 +1,18 @@
+fmeResource:
+  flagRef: flag7
+  environment: Staging-Default
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    description: "on"
+    baseline: false
+    defaultTreatment: false
+  - name: "off"
+    description: Nothing will change
+    baseline: true
+    defaultTreatment: true
+  defaultRule:
+  - treatment: "off"
+    size: 100
