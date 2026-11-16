@@ -1,0 +1,6 @@
+fmeResource:
+  segmentRef: firstSegment
+  environment: Prod-Default
+  status: active
+  keys:
+  - 1
