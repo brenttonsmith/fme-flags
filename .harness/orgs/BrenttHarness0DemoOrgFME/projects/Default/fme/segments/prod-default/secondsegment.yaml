@@ -2,3 +2,5 @@ fmeResource:
   segmentRef: secondSegment
   environment: Prod-Default
   status: active
+  keys:
+  - user1
