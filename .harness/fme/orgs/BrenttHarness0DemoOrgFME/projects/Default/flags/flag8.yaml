@@ -1,0 +1,6 @@
+fmeResource:
+  name: flag8
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners: []
