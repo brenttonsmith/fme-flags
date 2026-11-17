@@ -5,9 +5,10 @@ fmeResource:
     \ Miss Havisham and Estella never sat in a kitchen, but were far above the level\
     \ of such common things."
   trafficType: user
-  rolloutStatus: Bad
+  rolloutStatus: Ramping
   tags:
   - goober
+  - tag0
   owners:
   - type: group
     id: _fme_admins
