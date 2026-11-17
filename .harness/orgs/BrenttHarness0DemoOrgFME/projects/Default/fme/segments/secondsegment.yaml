@@ -1,0 +1,7 @@
+fmeResource:
+  name: secondSegment
+  trafficType: user
+  tags: []
+  owners:
+  - type: group
+    id: _fme_admins
