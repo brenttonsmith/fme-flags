@@ -1,0 +1,8 @@
+fmeResource:
+  name: brentt-test
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners:
+  - type: user
+    id: IXq51FJCSBKEoY311UFUIw
