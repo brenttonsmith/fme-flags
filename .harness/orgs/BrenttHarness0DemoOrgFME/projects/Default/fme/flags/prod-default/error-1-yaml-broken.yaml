@@ -12,5 +12,4 @@ fmeResource:
     baseline: false
     defaultTreatment: true
   defaultRule:
-  - treatment: "off"
-    size: 100
+  - treatment: "of
