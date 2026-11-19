@@ -1,10 +1,9 @@
 fmeResource:
   name: AFirstFlag
-  description: this should have a description. But it never comes back to FME.
+  description: description
   trafficType: user
   rolloutStatus: Pre-Production
-  tags:
-  - maze-runner
+  tags: []
   owners:
   - type: user
     id: YO05LIJLS_ii-ndo637wPQ
