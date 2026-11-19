@@ -6,7 +6,7 @@ fmeResource:
   impressionsDisabled: true
   treatments:
   - name: "on"
-    description: Crazy on description
+    description: Crazy on description. Waht
     baseline: false
     defaultTreatment: false
   - name: "off"
