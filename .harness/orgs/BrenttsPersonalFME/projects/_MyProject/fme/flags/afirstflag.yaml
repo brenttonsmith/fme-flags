@@ -1,6 +1,6 @@
 fmeResource:
   name: AFirstFlag
-  description: descriptions
+  description: des
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
