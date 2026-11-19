@@ -1,8 +1,12 @@
 fmeResource:
   name: AFirstFlag
+  description: One should really have a description for these things.
   trafficType: user
-  rolloutStatus: Pre-Production
-  tags: []
+  rolloutStatus: Internal Testing
+  tags:
+  - maze-runner
   owners:
+  - type: group
+    id: _project_all_users
   - type: user
     id: YO05LIJLS_ii-ndo637wPQ
