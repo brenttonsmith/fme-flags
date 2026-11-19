@@ -1,6 +1,6 @@
 fmeResource:
   name: BrenttManagerFlag
-  description: This is the description of the manager's tag. don't show
+  description: This is the description of the manager's tag. Does this not process?
   trafficType: division
   rolloutStatus: Pre-Production
   tags:
