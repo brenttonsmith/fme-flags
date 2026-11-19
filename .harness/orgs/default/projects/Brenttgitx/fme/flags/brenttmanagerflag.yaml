@@ -1,6 +1,7 @@
 fmeResource:
   name: BrenttManagerFlag
-  description: This is the description of the manager's tag. Does this not process?
+  description: "This is the description of the manager's tag. It should go to git\
+    \ and return,"
   trafficType: division
   rolloutStatus: Pre-Production
   tags:
