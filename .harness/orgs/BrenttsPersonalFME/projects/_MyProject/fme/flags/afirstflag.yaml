@@ -1,6 +1,6 @@
 fmeResource:
   name: AFirstFlag
-  description: this should have a description
+  description: this should have a description. But it never comes back to FME.
   trafficType: user
   rolloutStatus: Pre-Production
   tags:
