@@ -1,6 +1,6 @@
 fmeResource:
   name: BrenttManagerFlag
-  description: This is the description of the manager's tag.
+  description: This is the description of the manager's tag. Will this move to git?
   trafficType: division
   rolloutStatus: Pre-Production
   tags:
