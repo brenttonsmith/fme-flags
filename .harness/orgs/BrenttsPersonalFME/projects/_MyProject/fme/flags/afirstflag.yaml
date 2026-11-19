@@ -1,6 +1,5 @@
 fmeResource:
   name: AFirstFlag
-  description: There should be a description
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
