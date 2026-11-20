@@ -1,6 +1,7 @@
 fmeResource:
   name: BrenttManagerFlag
-  description: 'This is the best description of the manager''s tag. '
+  description: This is the description of the manager's tag. Why didn't this move
+    to git
   trafficType: division
   rolloutStatus: Pre-Production
   tags:
