@@ -1,6 +1,6 @@
 fmeResource:
   name: GitX_Test
-  description: This is my description for the feature flag
+  description: This is my description for the feature flag. Pushed from git.
   trafficType: user
   rolloutStatus: Pre-Production
   tags:
