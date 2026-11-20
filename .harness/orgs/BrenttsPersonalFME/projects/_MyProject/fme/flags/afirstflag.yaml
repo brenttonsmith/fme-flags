@@ -1,6 +1,6 @@
 fmeResource:
   name: AFirstFlag
-  description: ned a descriptions
+  description: need a description
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
