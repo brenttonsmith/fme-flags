@@ -1,0 +1,8 @@
+fmeResource:
+  name: GitX_Test
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners:
+  - type: user
+    id: YO05LIJLS_ii-ndo637wPQ
