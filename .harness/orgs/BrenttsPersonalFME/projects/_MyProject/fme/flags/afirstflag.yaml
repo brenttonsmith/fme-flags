@@ -1,6 +1,6 @@
 fmeResource:
   name: AFirstFlag
-  description: need a description
+  description: please save and come back
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
