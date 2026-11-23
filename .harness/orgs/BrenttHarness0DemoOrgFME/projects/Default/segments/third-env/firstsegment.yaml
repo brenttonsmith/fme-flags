@@ -2,3 +2,6 @@ fmeResource:
   segmentRef: firstSegment
   environment: Third-Env
   status: active
+  keys:
+  - Gerard
+  - James
