@@ -1,12 +1,9 @@
 fmeResource:
   name: GitX_Test
-  description: This is my description for the feature flag. Pushed from git.
+  description: This is a description
   trafficType: user
   rolloutStatus: Pre-Production
-  tags:
-  - maze-runner
+  tags: []
   owners:
-  - type: group
-    id: _fme_admins
   - type: user
     id: YO05LIJLS_ii-ndo637wPQ
