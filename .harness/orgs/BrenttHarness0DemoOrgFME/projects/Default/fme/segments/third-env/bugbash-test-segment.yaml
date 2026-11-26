@@ -1,0 +1,5 @@
+fmeResource:
+  entityType: SEGMENT_DEFINITION
+  segmentRef: bugbash-test-segment
+  environment: Third-Env
+  status: active
