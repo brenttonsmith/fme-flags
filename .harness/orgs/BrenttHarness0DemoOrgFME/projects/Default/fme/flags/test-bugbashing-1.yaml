@@ -1,0 +1,7 @@
+fmeResource:
+  entityType: FEATURE_FLAG
+  name: test-bugbashing-1
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners: []
