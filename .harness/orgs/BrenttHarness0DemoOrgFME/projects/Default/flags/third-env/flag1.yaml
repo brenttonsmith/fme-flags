@@ -1,4 +1,5 @@
 fmeResource:
+  entityType: FEATURE_FLAG_DEFINITION
   flagRef: flag1
   environment: Third-Env
   status: active
@@ -10,7 +11,7 @@ fmeResource:
     baseline: false
     defaultTreatment: false
   - name: "off"
-    description: "off"
+    description: off - there be monsters
     baseline: true
     defaultTreatment: true
   defaultRule:
