@@ -1,8 +1,10 @@
 fmeResource:
   entityType: SEGMENT
   name: bugbash-test-segment
+  description: description
   trafficType: user
   tags: []
   owners:
   - type: group
     id: _fme_admins
+    name: All FME Admins
