@@ -1,6 +1,7 @@
 fmeResource:
+  entityType: FEATURE_FLAG
   name: flag9
-  description: description flag 9
+  description: new description
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
