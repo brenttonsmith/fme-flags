@@ -1,6 +1,8 @@
 fmeResource:
+  entityType: SEGMENT
   name: firstSegment
-  description: This is the segment to end all segments. Or is it the beginning. Nope, it's the end.
+  description: "This is the segment to end all segments. Or is it the beginning. Nope,\
+    \ it's the end. Can we make an edit, push to branch and open pr?"
   trafficType: user
   tags:
   - goober
