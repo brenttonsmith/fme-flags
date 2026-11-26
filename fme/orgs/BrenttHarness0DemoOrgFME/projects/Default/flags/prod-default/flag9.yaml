@@ -1,4 +1,5 @@
 fmeResource:
+  entityType: FEATURE_FLAG_DEFINITION
   flagRef: flag9
   environment: Prod-Default
   status: active
@@ -6,7 +7,7 @@ fmeResource:
   impressionsDisabled: false
   treatments:
   - name: "on"
-    description: on description
+    description: a
     baseline: false
     defaultTreatment: false
   - name: "off"
