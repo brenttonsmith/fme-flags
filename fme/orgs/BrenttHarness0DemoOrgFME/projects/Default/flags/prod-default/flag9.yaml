@@ -11,6 +11,7 @@ fmeResource:
     baseline: false
     defaultTreatment: false
   - name: "off"
+    description: b
     baseline: false
     defaultTreatment: true
   defaultRule:
