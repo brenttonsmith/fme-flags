@@ -3,3 +3,5 @@ fmeResource:
   segmentRef: bugbash-test-segment
   environment: Third-Env
   status: active
+  keys:
+  - user1
