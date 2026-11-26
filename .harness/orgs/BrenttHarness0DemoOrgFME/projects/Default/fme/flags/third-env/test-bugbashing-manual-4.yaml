@@ -1,0 +1,19 @@
+fmeResource:
+  entityType: FEATURE_FLAG_DEFINITION
+  flagRef: test-bugbashing-manual-4
+  environment: Third-Env
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    description: description
+    baseline: false
+    defaultTreatment: false
+  - name: "off"
+    description: description
+    baseline: false
+    defaultTreatment: true
+  defaultRule:
+  - treatment: "off"
+    size: 100
