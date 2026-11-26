@@ -1,6 +1,5 @@
 fmeResource:
   name: GitX_Test
-  description: This is a description
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
