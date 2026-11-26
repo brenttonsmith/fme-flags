@@ -1,7 +1,7 @@
 fmeResource:
   entityType: SEGMENT
   name: bugbash-test-segment
-  description: description
+  description: description from PR
   trafficType: user
   tags: []
   owners:
