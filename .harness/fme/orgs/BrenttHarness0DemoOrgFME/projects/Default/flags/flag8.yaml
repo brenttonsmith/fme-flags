@@ -1,0 +1,7 @@
+fmeResource:
+  name: flag8
+  description: inbound metadata test
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners: []

@@ -1,20 +1,18 @@
 fmeResource:
-  flagRef: flag2
+  flagRef: flag10
   environment: Prod-Default
   status: active
   killed: false
   impressionsDisabled: false
   treatments:
   - name: "on"
-    description: 123
+    description: "ON"
     baseline: false
     defaultTreatment: false
   - name: "off"
-    description: 123
-    baseline: true
+    description: "OFF"
+    baseline: false
     defaultTreatment: true
-  flagSets:
-  - testfs
   defaultRule:
-  - treatment: "off"
+  - treatment: "on"
     size: 100

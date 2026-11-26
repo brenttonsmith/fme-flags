@@ -1,7 +1,11 @@
 fmeResource:
   name: firstSegment
-  description: This is the description of my segment. After update from UI
+  description: This is the segment to end all segments
   trafficType: user
+  tags:
+  - goober
+  - tag1
+  - tag2
   owners:
   - type: group
     id: _fme_admins
@@ -9,3 +13,5 @@ fmeResource:
     id: BRu4z2WtTzKb1wic-6N6Og
   - type: user
     id: RXUnxKTgSq-UDl5YlsXVjA
+  - type: user
+    id: ya8-dwMlRtKJjj9WGcZSRw

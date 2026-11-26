@@ -1,0 +1,20 @@
+fmeResource:
+  flagRef: BrenttManagerFlag
+  environment: Prod-Brentt-gitx
+  status: active
+  killed: false
+  impressionsDisabled: true
+  treatments:
+  - name: "on"
+    description: Crazy on description. Waht
+    baseline: false
+    defaultTreatment: false
+  - name: "off"
+    description: Sane on Description
+    baseline: false
+    defaultTreatment: true
+  defaultRule:
+  - treatment: "on"
+    size: 50
+  - treatment: "off"
+    size: 50

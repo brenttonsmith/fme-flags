@@ -1,0 +1,8 @@
+fmeResource:
+  name: thirdSegment-fromYaml
+  entityType: SEGMENT
+  trafficType: user
+  tags: []
+  owners:
+  - type: group
+    id: _fme_admins

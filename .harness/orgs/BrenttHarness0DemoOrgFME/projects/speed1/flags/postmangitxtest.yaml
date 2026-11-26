@@ -1,0 +1,10 @@
+fmeResource:
+  entityType: FEATURE_FLAG
+  name: PostManGitxTest
+  description: This is a test for Gitx run via Postman
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners:
+  - type: user
+    id: RXUnxKTgSq-UDl5YlsXVjA

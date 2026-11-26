@@ -1,0 +1,19 @@
+fmeResource:
+  entityType: FEATURE_FLAG_DEFINITION
+  flagRef: PostManGitxTest
+  environment: Staging-speed1
+  status: active
+  killed: false
+  impressionsDisabled: false
+  treatments:
+  - name: "on"
+    description: on - stage
+    baseline: false
+    defaultTreatment: false
+  - name: "off"
+    description: off - stage
+    baseline: false
+    defaultTreatment: true
+  defaultRule:
+  - treatment: "off"
+    size: 100

@@ -1,0 +1,10 @@
+fmeResource:
+  entityType: SEGMENT_DEFINITION
+  segmentRef: firstSegment
+  environment: Third-Env
+  status: active
+  keys:
+  - Gerard
+  - James
+  - William
+  - Porcupine
