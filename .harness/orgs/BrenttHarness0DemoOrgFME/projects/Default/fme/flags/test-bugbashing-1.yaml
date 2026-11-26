@@ -1,7 +1,7 @@
 fmeResource:
   entityType: FEATURE_FLAG
   name: test-bugbashing-1
-  description: description - updated in PR
+  description: description - updated in PR 2
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
