@@ -1,6 +1,6 @@
 fmeResource:
   name: flag7
-  description: This is my descrip again. Nope. This should really work.
+  description: This is my descrip again. Nope. This should really work. 2
   trafficType: user
   rolloutStatus: External Beta
   tags:
