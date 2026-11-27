@@ -1,0 +1,8 @@
+fmeResource:
+  entityType: FEATURE_FLAG
+  name: aManualTest123
+  description: description
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners: []
