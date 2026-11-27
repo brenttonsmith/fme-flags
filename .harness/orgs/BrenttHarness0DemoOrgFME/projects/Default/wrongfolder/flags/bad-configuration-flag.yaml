@@ -1,0 +1,7 @@
+fmeResource:
+  entityType: FEATURE_FLAG
+  name: bad_configuration_flag
+  trafficType: user
+  rolloutStatus: Pre-Production
+  tags: []
+  owners: []
