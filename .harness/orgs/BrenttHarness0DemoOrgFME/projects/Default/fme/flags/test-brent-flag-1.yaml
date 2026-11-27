@@ -1,6 +1,7 @@
 fmeResource:
   entityType: FEATURE_FLAG
   name: test_brent_flag_1
+  description: ddddescr
   trafficType: user
   rolloutStatus: Pre-Production
   tags: []
