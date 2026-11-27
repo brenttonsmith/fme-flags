@@ -1,0 +1,10 @@
+fmeResource:
+  entityType: SEGMENT
+  name: bugbash-test-segment-manual-2
+  description: description from PR
+  trafficType: user
+  tags: []
+  owners:
+  - type: group
+    id: _fme_admins
+    name: All FME Admins
