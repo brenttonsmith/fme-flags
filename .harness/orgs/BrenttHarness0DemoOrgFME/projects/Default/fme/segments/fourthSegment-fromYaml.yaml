@@ -1,0 +1,18 @@
+fmeResource:
+  entityType: SEGMENT
+  name: fourthSegment-fromYaml
+  description: "This was created first in git and then autocreated via FME."
+  trafficType: user
+  tags:
+  - goober
+  - tag1
+  owners:
+  - type: user
+    id: BRu4z2WtTzKb1wic-6N6Og
+    name: brentton.smith+0072
+  - type: user
+    id: RXUnxKTgSq-UDl5YlsXVjA
+    name: brentton.smith+007_877
+  - type: user
+    id: ya8-dwMlRtKJjj9WGcZSRw
+    name: brentton.smith+0073
